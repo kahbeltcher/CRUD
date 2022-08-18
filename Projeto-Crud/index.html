@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="script.js" defer></script>
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+    <form class="form-group col-md-6 shadow p-3 mb-5 bg-white rounded" id="classe">
+            <div class="header">
+                <h2 class="header">Produtos</h2>
+            </div>
+            <div class="form-row" id="modal">
+                <div class="form-group col-md-10">
+                    <label for="nome">Nome do Produto</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome do Produto">
+                </div>
+                <div class="form-group col-md-10">
+                    <label for="fabricante">Fabricante</label>
+                    <select id="Fabricante" class="form-control">
+                        <option value="Nestle">Nestle</option>
+                        <option value="Honda">Honda</option>
+                        <option>outros</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-10">
+                    <label for="categoria">Categoria</label>
+                    <select id="Categoria" class="form-control">
+                        <option value="Nestle">Achocolatado</option>
+                        <option value="Honda">Carros</option>
+                        <option>outros</option>
+                    </select>            
+                </div>
+                <div class="form-group col-md-10">
+                    <label for="preco">Preço</label>
+                    <input type="text" class="form-control" id="preco" placeholder="Digite o preço">
+                    </div>
+            </div>
+            <a href="lista_produtos.html" class="btn btn-secondary btn-lg active"  id="salvar"role="button" aria-pressed="true">Adicionar</a>
+        </form>
+</div>
+</body>
+</html>
