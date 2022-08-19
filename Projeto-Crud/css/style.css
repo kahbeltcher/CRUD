@@ -3,6 +3,11 @@
 .btn{  
   border:none!important;
   background-color: rgb(36, 36, 128)!important;
+  min-width: 100px;
+  max-width: 100px;
+
+  padding-bottom: 1rem;
+  justify-content: space-around;
 }
 .container{
     display: flex;
