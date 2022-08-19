@@ -1,15 +1,15 @@
 .btn-primary,
 .btn-danger,
 .btn{  
-  border:none!important;
-  background-color: rgb(36, 36, 128)!important;
-}
-.container-01{
+    border:none!important;
+    background-color: rgb(36, 36, 128)!important;
+  }
+.container-{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: start;
-}
+  }
 #classe{
     background-color: rgb(253, 253, 253)!important;
     margin: 5rem;
@@ -23,7 +23,7 @@
     font-weight: 620!important;
     color: rgb(36, 36, 128);
   }
-th{
+  th{
     border: none!important;
     border: 1px solid #000;
-}
+  }
